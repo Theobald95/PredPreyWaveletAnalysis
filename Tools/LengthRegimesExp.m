@@ -1,4 +1,11 @@
 function [LengCoheOsciExp, LengUnCoheExp, dominaF, FreqInd, high, low] = LengthRegimesExp(waveCo,sigCohe,powerXY,nvoices, period, coi)
+% waveCo: wavelet coherence of expermental data
+% sigCohe: critical value for wavelet coherence
+% powerXY: wavelet cross-spectrum
+% nvoices: number of steps between subsequent powers of two
+% period: period-length of oscilattions
+% coi: cone of influence
+% returns the coherent oscillations regime and non-coherent oscillation regime length for the experiment
 n = size(powerXY,2);
 LengCoheOsciExp =  [];
 LengUnCoheExp = [];
