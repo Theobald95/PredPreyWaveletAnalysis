@@ -30,7 +30,7 @@ elseif methodSurr == 3
     mode = 'IAAFTtd';
     fc = 0.05;
 end
-%% Estimation of wavelet coherence and wavelet cross spectra
+%% Estimation of wavelet coherence (waveCo), wavelet spectra of prey (powerX) and predator (powerY) and wavelet cross-spectrum (powerXY)
 [waveCo, powerX, powerY, powerXY, period, scale, coi] = waveCohe(prey, pred, dt, pad, nvoices, noctave, s0, mother, param);
 [~, ~, ~, powerX3, ~, ~, ~] = waveCohe(prey, Data(4,:), dt, pad, nvoices, noctave, s0, mother, param);
 [~, ~, ~, powerX4, ~, ~, ~] = waveCohe(prey, Data(5,:), dt, pad, nvoices, noctave, s0, mother, param);
