@@ -1,5 +1,5 @@
 function [LengCoheOsciExp, LengUnCoheExp, dominaF, FreqInd, high, low] = LengthRegimesExp(waveCo,sigCohe,powerXY,nvoices, period, coi)
-% waveCo: wavelet coherence of expermental data
+% waveCo: wavelet coherence of experimental data
 % sigCohe: critical value for wavelet coherence
 % powerXY: wavelet cross-spectrum
 % nvoices: number of steps between subsequent powers of two
