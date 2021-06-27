@@ -1,4 +1,7 @@
 function [xNeu, tNeu] = treatData(x,dt)
+% x: time series
+% dt: sampling interval
+% removes NAN data points and returns a evenly sampled time series
 n = size(x,2);
 m = size(x,1);
 tend = round(x(1,n));
