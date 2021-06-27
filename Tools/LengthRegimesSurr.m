@@ -1,4 +1,10 @@
 function [LengCoheOsciSurr, LengUnCoheSurr] = LengthRegimesSurr(SurrwaveCo,SurrsigCohe,high,low, period, coi)
+% SurrwaveCo: wavelet coherence of surrogate data
+% SurrsigCohe: critical value for wavelet coherence
+% high: highest period to consider, low: lowest period to consider
+% period: period-length of oscilattions
+% coi: cone of influence
+% returns the coherent oscillations regime and non-coherent oscillation regime length for the experiment
 N = size(SurrwaveCo,1);
 n = size(SurrwaveCo,3);
 LengCoheOsciSurr = cell(N,1);
