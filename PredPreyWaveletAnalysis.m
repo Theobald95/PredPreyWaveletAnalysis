@@ -24,7 +24,7 @@ if methodSurr == 1
     mode = 'Scram';
     fc = 0;
 elseif methodSurr == 2
-    mode = 'Surr';
+    mode = 'AAFT';
     fc = 0;
 elseif methodSurr == 3
     mode = 'IAAFTtd';
