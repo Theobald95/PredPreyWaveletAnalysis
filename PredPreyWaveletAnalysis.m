@@ -36,7 +36,7 @@ end
 [~, ~, ~, powerX4, ~, ~, ~] = waveCohe(prey, Data(5,:), dt, pad, nvoices, noctave, s0, mother, param);
 [~, ~, ~, powerX5, ~, ~, ~] = waveCohe(prey, Data(6,:), dt, pad, nvoices, noctave, s0, mother, param);
 [~, ~, ~, powerX6, ~, ~, ~] = waveCohe(prey, Data(7,:), dt, pad, nvoices, noctave, s0, mother, param);
-%% Generate surrogate data and determine critical values
+%% Generate surrogate data and determine critical value
 m = size(scale,2);
 n = size(powerX,2);
 surrX = SurrogateData(pred, N, methodSurr,fc);
