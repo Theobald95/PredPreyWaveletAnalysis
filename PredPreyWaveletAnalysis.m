@@ -106,7 +106,7 @@ hold off
 ylim([min(log2(period)) max(log2(period))]);
 set(gca, 'YTickLabel', [2^2 2^3 4^2]);
 set(gca, 'YDir','reverse')
-xlabel('Times [d]'); ylabel('Period [d]');
+xlabel('Time [d]'); ylabel('Period [d]');
 
 %plot phase relationships
 n = size(t,2);
