@@ -1,4 +1,4 @@
-# PredPreyWaveletAnalysis
+# Testing for Interactions in Predator-Prey Time Series
 The goal of this code is to provide significance testing for interactions between time series by using surrogate data methods. 
 Three different methods to generate surrogate data are presented with different null hypotheses.  
 H_0 scrambling method: The observed data is a realisation of independently and identically
