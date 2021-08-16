@@ -10,8 +10,8 @@ Data = csvread(s,1,0);
 [Data, t] = treatData(Data',1);
 prey = Data(2,:);
 pred = Data(3,:);
-dt= 1;% time steps in days
-pad=1;% pad the time series with zeros
+dt= 1;% time step in days
+pad=1;% if pad=1 the time series is padded with zeros
 nvoices = 100;% total number of voices100
 noctave = 3;% total number of octaves
 s0=2*dt; % starting scale
